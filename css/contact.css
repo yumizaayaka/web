@@ -16,19 +16,32 @@
 }
 
 
+.top-contact {
+    height: 650px;
+}
 .contact-form {
-    margin-top: 40px;
+    padding-top: 100px;
 }
-
-
 .form-item {
-    padding-left: 300px;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
 }
-.form-item-input {
+.form-item-name {
+    font-weight: bold;
 }
 
 .form-item-sumbit {
+    width: 300px;
+    padding: 10px;
+    margin-left: 600px;
+    margin-bottom: 40px;
     background-color: black;
     color: white;
+    border: none;
+}
+.form-item-required {
+    color: red;
 }

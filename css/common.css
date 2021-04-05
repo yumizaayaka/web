@@ -103,3 +103,15 @@ a:hover {
     content: "|";
     padding: 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .menu-nav {
+        display: inline;
+    }
+    .menu {
+        display: inline;
+    }
+    .header-nav {
+        display: none;
+    }
+}
