@@ -40,19 +40,25 @@
 .service-list{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
 }
 .service-item {
-    align-items: center;
-    width: 49%;
+    width: 50%;
     margin-top: 20px;
+    text-align: center;
 }
 .service-item-img img{
-    width: 75%;
-    margin-right: 0;
-    padding-left: 20px;
+    width: 80%;
+    margin-right: 0 auto;
 }
 .service-item-ttl {
     font-size: 18px;
+}
+.service-item-txt {
+    width: 80%;
+}
+.service-item:nth-child(2n) {
+    margin-right: 0;
 }
 .service-contact {
     width: 150px;

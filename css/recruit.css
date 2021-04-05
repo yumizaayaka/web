@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.mv {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/mv.png) center;
+}
+.mv-ttl {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+
+
+.wrap {
+    margin-top: 50px;
+}
+.recruit-content {
+    padding-bottom: 100px;
+}
+.recruit-ttl {
+    border-bottom: 1px solid black;
+}
+.recruit-sub-ttl {
+    padding-top: 20px;
+}
+.recruit-table {
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 100%;
+}
+.recruit-table-name,
+.recruit-table-deta {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.recruit-table-name {
+    background-color: rgb(242, 255, 253);
+    border-right: 1px solid black;
+}
+.recruit-table-deta {
+    padding-left: 5px;
+}
