@@ -36,13 +36,15 @@
 }
 .recruit-table-name,
 .recruit-table-deta {
-    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     padding: 10px;
 }
 .recruit-table-name {
     background-color: rgb(242, 255, 253);
     border-right: 1px solid black;
+    width: 30%;
 }
 .recruit-table-deta {
+    width: 70%;
     padding-left: 5px;
 }

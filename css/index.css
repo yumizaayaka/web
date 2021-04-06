@@ -27,44 +27,40 @@
     height: 300px;
 }
 .top-content-ttl {
-    margin: 0px 150px;
     padding-top: 70px;
 }
 .top-content-txt {
-    margin: 20px 150px;
+    margin: 20px 0px;
 }
 
 .service-ttl {
     text-align: center;
+    padding: 40px;
 }
 .service-list{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    align-items: center;
 }
 .service-item {
-    width: 50%;
-    margin-top: 20px;
-    text-align: center;
+    width: 49%;
+    margin: 10px 0;
 }
 .service-item-img img{
-    width: 80%;
-    margin-right: 0 auto;
+    width: 98%;
 }
 .service-item-ttl {
     font-size: 18px;
-}
-.service-item-txt {
-    width: 80%;
 }
 .service-item:nth-child(2n) {
     margin-right: 0;
 }
 .service-contact {
-    width: 150px;
-    padding: 10px 50px;
-    margin-top: 40px;
-    margin-left: 550px;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
     background-color: rgb(185, 31, 3);
 }
 .service-contact a{
@@ -76,12 +72,11 @@
     margin-top: 40px;
     background-color: black;
 }
-.news-wrap {
-    width: 960px;
+.news-child {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 30px;
-    margin-left: 260px;
     color: white;
 }
 .news-contact {
@@ -91,16 +86,15 @@
     background-color: rgb(185, 30, 30);
 }
 .news-list {
+    width: 100%;
     margin-top: 30px;
 }
 .news-item-link {
     background-color: white;
-    width: 70%;
     color: black;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    margin-left: 260px;
     padding: 20px 0;
 }
 .news-item-data {
@@ -111,7 +105,6 @@
 }
 
 .blog {
-    width: 1000px;
     margin: 0 auto;
     padding: 40px 0;
 }
@@ -121,12 +114,11 @@
 .blog-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     margin-top: 20px;
 }
 .blog-item {
     width: 30%;
-    margin: 0 5px 30px 0;
+    margin: 0 30px 30px 0;
 }
 .blog-item-img img{
     width: 100%;
@@ -138,11 +130,11 @@
     color: black;
 }
 .blog-content {
-    padding: 10px 30px;
+    padding: 10px;
     background-color: rgb(185, 30, 30);
     color: white;
     display: block;
-    width: 15%;
+    width: 300px;
     text-align: center;
     margin: auto;
 }
@@ -178,29 +170,11 @@
 }
 
 @media screen and (max-width: 768px) {
-    .top-content-ttl {
-        padding-top: 20px;
-    }
     .service-item {
         width: 100%;
     }
-    .news-wrap {
-        width: 600px;
-        margin-left: 120px;
-    }
-    .news-item-link {
-        width: 80%;
-        margin-left: 120px;
-    }
-    .blog-list {
-        margin-left: 50px;
-    }
     .blog-item {
         width: 100%;
-        margin-right: 20px;
-        margin-bottom: 30px;
     }
-    .blog-content {
-        margin-left: 300px;
-    }
+
 }
